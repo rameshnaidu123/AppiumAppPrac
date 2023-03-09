@@ -1,0 +1,69 @@
+2023-03-01 16:22:30:823 [Appium] Welcome to Appium v2.0.0-beta.56
+2023-03-01 16:22:30:826 [Appium] Non-default server args:
+2023-03-01 16:22:30:827 [Appium] { address: '127.0.0.1', loglevel: 'warn:debug', port: 4724, sessionOverride: true }
+2023-03-01 16:22:30:827 [Appium] Attempting to load driver uiautomator2...
+2023-03-01 16:22:30:828 [Appium] Requiring driver at /home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver
+2023-03-01 16:22:31:571 [Appium] Attempting to load driver xcuitest...
+2023-03-01 16:22:31:572 [Appium] Requiring driver at /home/ramesh.naidu/.appium/node_modules/appium-xcuitest-driver
+2023-03-01 16:22:32:463 [Appium] Appium REST http interface listener started on 127.0.0.1:4724
+2023-03-01 16:22:32:463 [Appium] Available drivers:
+2023-03-01 16:22:32:463 [Appium]   - uiautomator2@2.12.3 (automationName 'UiAutomator2')
+2023-03-01 16:22:32:463 [Appium]   - xcuitest@4.16.12 (automationName 'XCUITest')
+2023-03-01 16:22:32:463 [Appium] Available plugins:
+2023-03-01 16:22:32:463 [Appium]   - images@2.0.6
+2023-03-01 16:22:32:464 [Appium] No plugins activated. Use the --use-plugins flag with names of plugins to activate
+2023-03-01 16:22:32:757 [HTTP] --> GET /status
+2023-03-01 16:22:32:757 [HTTP] {}
+2023-03-01 16:22:32:758 [AppiumDriver@af16] Calling AppiumDriver.getStatus() with args: []
+2023-03-01 16:22:32:759 [AppiumDriver@af16] Responding to client with driver.getStatus() result: {"build":{"version":"2.0.0-beta.56"}}
+2023-03-01 16:22:32:762 [HTTP] <-- GET /status 200 4 ms - 47
+2023-03-01 16:22:32:763 [HTTP] 
+2023-03-01 16:22:33:437 [HTTP] Request idempotency key: 70beff08-7054-4c1d-bc2f-7976941c0059
+2023-03-01 16:22:33:446 [HTTP] --> POST /session
+2023-03-01 16:22:33:446 [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.google.android.libraries.youtube.player.features.gl.vr.VrWelcomeActivity - YouTube","appium:appPackage":"com.google.android.libraries","appium:automationName":"UiAutomator2","appium:avdLaunchTime":18000,"appium:deviceName":"Pixel_3a_API_33_x86_64","appium:newCommandTimeout":18000,"appium:udid":"emulator-5554","appium:unlockKey":"9261","appium:unlockType":"pattern","platformName":"android"}}}
+2023-03-01 16:22:33:446 [AppiumDriver@af16] Calling AppiumDriver.createSession() with args: [null,null,{"firstMatch":[{}],"alwaysMatch":{"appium:appActivity":"com.google.android.libraries.youtube.player.features.gl.vr.VrWelcomeActivity - YouTube","appium:appPackage":"com.google.android.libraries","appium:automationName":"UiAutomator2","appium:avdLaunchTime":18000,"appium:deviceName":"Pixel_3a_API_33_x86_64","appium:newCommandTimeout":18000,"appium:udid":"emulator-5554","appium:unlockKey":"9261","appium:unlockType":"pattern","platformName":"android"}}]
+2023-03-01 16:22:33:446 [AppiumDriver@af16] Event 'newSessionRequested' logged at 1677687753446 (21:52:33 GMT+0530 (India Standard Time))
+2023-03-01 16:22:33:449 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'android'
+2023-03-01 16:22:33:449 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2023-03-01 16:22:33:449 [Appium] Will require it at /home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver
+2023-03-01 16:22:33:449 [Appium] Requiring driver at /home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver
+2023-03-01 16:22:33:449 [AppiumDriver@af16] Appium v2.0.0-beta.56 creating new AndroidUiautomator2Driver (v2.12.3) session
+2023-03-01 16:22:33:449 [AppiumDriver@af16] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2023-03-01 16:22:33:450 [AppiumDriver@af16] Appium's BaseDriver version is 9.3.2
+2023-03-01 16:22:33:450 [AppiumDriver@af16] AndroidUiautomator2Driver's BaseDriver version is 9.3.2
+2023-03-01 16:22:33:450 [AppiumDriver@af16] There are no active sessions for cleanup
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba] Creating session with W3C capabilities: {
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]   "alwaysMatch": {
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "platformName": "android",
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:appActivity": "com.google.android.libraries.youtube.player.features.gl.vr.VrWelcomeActivity - YouTube",
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:appPackage": "com.google.android.libraries",
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:automationName": "UiAutomator2",
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:avdLaunchTime": 18000,
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:deviceName": "Pixel_3a_API_33_x86_64",
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:newCommandTimeout": 18000,
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:udid": "emulator-5554",
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:unlockKey": "9261",
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     "appium:unlockType": "pattern"
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]   },
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]   "firstMatch": [
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]     {}
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba]   ]
+2023-03-01 16:22:33:451 [AndroidUiautomator2Driver@9aba] }
+2023-03-01 16:22:33:457 [AndroidUiautomator2Driver@9aba] The following capabilities were provided, but are not recognized by Appium:
+2023-03-01 16:22:33:457 [AndroidUiautomator2Driver@9aba]   avdLaunchTime
+2023-03-01 16:22:33:457 [AndroidUiautomator2Driver@9aba (22e75765)] Session created with session id: 22e75765-b1ec-479a-ac2c-c024a183b132
+2023-03-01 16:22:33:458 [AndroidUiautomator2Driver@9aba (22e75765)] Starting 'com.google.android.libraries' directly on the device
+2023-03-01 16:22:33:460 [AndroidUiautomator2Driver@9aba (22e75765)] Deleting UiAutomator2 session
+2023-03-01 16:22:33:461 [AppiumDriver@af16] Event 'newSessionStarted' logged at 1677687753461 (21:52:33 GMT+0530 (India Standard Time))
+2023-03-01 16:22:33:492 [AppiumDriver@af16] Encountered internal error running command: Error: Neither ANDROID_HOME nor ANDROID_SDK_ROOT environment variable was exported. Read https://developer.android.com/studio/command-line/variables for more details
+2023-03-01 16:22:33:492 [AppiumDriver@af16]     at requireSdkRoot (/home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/helpers.js:81:11)
+2023-03-01 16:22:33:492 [AppiumDriver@af16]     at Function.createADB (/home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-adb/lib/adb.js:80:37)
+2023-03-01 16:22:33:492 [AppiumDriver@af16]     at Object.createBaseADB (/home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/android-helpers.js:129:20)
+2023-03-01 16:22:33:493 [AppiumDriver@af16]     at Object.getDeviceInfoFromCaps (/home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/android-helpers.js:220:29)
+2023-03-01 16:22:33:493 [AppiumDriver@af16]     at AndroidUiautomator2Driver.startUiAutomator2Session (/home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:350:40)
+2023-03-01 16:22:33:493 [AppiumDriver@af16]     at AndroidUiautomator2Driver.createSession (/home/ramesh.naidu/.appium/node_modules/appium-uiautomator2-driver/lib/driver.js:241:18)
+2023-03-01 16:22:33:493 [AppiumDriver@af16]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-03-01 16:22:33:493 [AppiumDriver@af16]     at AppiumDriver.createSession (/usr/lib/node_modules/appium/lib/appium.js:349:35)
+2023-03-01 16:22:33:499 [HTTP] <-- POST /session 500 53 ms - 804
+2023-03-01 16:22:33:499 [HTTP] 
+2023-03-01 17:38:54:135 [Appium] Received SIGTERM - shutting down
